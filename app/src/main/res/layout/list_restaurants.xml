@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/crdRestList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtRestaurantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Restaurant Name:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtRestaurantNameResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/txtRestaurantName"
+            android:padding="10dp"
+            android:text="Kabir Restaurant"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtRestaurantName"
+            android:padding="10dp"
+            android:text="Location:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtLocationResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtRestaurantNameResult"
+            android:layout_toEndOf="@id/txtRestaurantName"
+            android:padding="10dp"
+            android:text="Bodakdev"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtTimings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLocation"
+            android:padding="10dp"
+            android:text="Timings:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtTimingsResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLocationResult"
+            android:layout_toEndOf="@id/txtRestaurantName"
+            android:padding="10dp"
+            android:text="8 am : 10 pm"
+            android:textColor="#000000" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

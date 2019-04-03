@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yummy! Restaurant Locater</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="txt_restaurants">Restaurants</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="submit">Submit</string>  
+</resources>

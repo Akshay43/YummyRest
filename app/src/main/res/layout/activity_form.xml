@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="24dp"
+        android:text="Address"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/addressText"
+        android:ems="10" android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/locText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressText"
+        android:layout_below="@+id/addr"
+        android:layout_marginTop="26dp"
+        android:text="Loaction"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/locText"
+        android:ems="10" android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/notText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressText"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="26dp"
+        android:text="No of tables"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/nott"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/notText"
+        android:ems="10" android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/maxtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressText"
+        android:layout_below="@+id/nott"
+        android:layout_marginTop="26dp"
+        android:text="Table Max Capacity"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/maxx"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/maxtText"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tmgText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/maxtText"
+        android:layout_below="@+id/maxtText"
+        android:layout_marginTop="26dp"
+        android:text="Timing"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/tmgg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tmgText"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tmgg"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="93dp"
+        android:text="@string/submit" />
+
+
+
+
+</RelativeLayout>

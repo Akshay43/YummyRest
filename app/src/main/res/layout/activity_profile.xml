@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_gradient_drawable"
+    tools:context=".ProfileActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:background="@drawable/rounded_corner_button"
+        android:onClick="signOut"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="TextView" />
+
+
+    <Button
+    android:id="@+id/button7"
+    android:layout_width="106dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="230dp"
+    android:background="@drawable/rounded_corner_button"
+    android:color="@color/colorPrimary"
+    android:onClick="mapAd"
+    android:text="Nearby Restaurant" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="352dp"
+        android:layout_below="@id/button7"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corner_button"
+        android:color="@color/colorPrimary"
+        android:onClick="resList"
+        android:text="Restaurants" />
+
+
+</RelativeLayout>

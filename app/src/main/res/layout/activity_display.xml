@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="24dp"
+        android:text="Address"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/addressValue"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/addressText"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/locText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressText"
+        android:layout_below="@+id/addressText"
+        android:layout_marginTop="26dp"
+        android:text="Loaction"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/locValue"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/locText"
+
+        />
+
+    <TextView
+        android:id="@+id/notText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/locText"
+        android:layout_below="@+id/locText"
+        android:layout_marginTop="26dp"
+        android:text="No of tables"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/notValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/notText" />
+
+    <TextView
+        android:id="@+id/maxtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/addressText"
+        android:layout_below="@+id/notText"
+        android:layout_marginTop="26dp"
+        android:text="Table Max Capacity"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/maxtValue"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/maxtText"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tmgText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/maxtText"
+        android:layout_below="@+id/maxtText"
+        android:layout_marginTop="26dp"
+        android:text="Timing"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tmgValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tmgText"
+        android:layout_alignParentRight="true"
+        android:ems="10" />
+
+
+
+
+
+
+</RelativeLayout>
